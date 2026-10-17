@@ -1,0 +1,30 @@
+source:
+  url: https://github.com/flummer/tt-um-flummer-ltc
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: ihp130
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p2
+  slot: tt_um_flummer_ltc
+  project: Linear Timecode (LTC) generator
+  size: 1x1
+  kind: digital (Verilog)
+  commit: 445f151448a3eb044b91a135166e349d96868d44
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p2/tt_um_flummer_ltc
+  branch: tapeout/tinytapeout/ttgf0p2/tt_um_flummer_ltc
+  page: https://app.tinytapeout.com/shuttles/ttgf0p2
+generated: '2026-10-17T23:39:41Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p2/tt_um_flummer_ltc
+- upstream/gf180
+- upstream/ihp-cmos5l
+- upstream/ihp130
+- upstream/main
+- upstream/sky130
